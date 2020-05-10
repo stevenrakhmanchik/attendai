@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AttendAI CP</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <ol class="breadcrumb">
+        <li>
+          <a href="monitoring.html" class="active">Monitoring</a>
+          <a>      |</a>
+          <a href="settings.html">Settings</a>
+          <a>      |</a>
+          <a href="documentation.html">Documentation</a>
+        </li>
+      </ol>
+      <div class="flex-grid">
+        <div class="col">
+          <img class="crop" src="../database/1.jpeg" id='1'>
+          <img class="crop" src="../database/2.jpeg" id='2'>
+          <img class="crop" src="../database/3.jpeg" id='3'></div>
+        <div class="col">
+          <img class="crop" src="../database/2.jpeg" id='4'>
+          <img class="crop" src="../database/3.jpeg" id='5'>
+          <img class="crop" src="../database/3.jpeg" id='6'>
+        </div>
+        <div class="col">
+          <img class="crop" src="../database/2.jpeg" id='7'>
+          <img class="crop" src="../database/3.jpeg" id='8'>
+          <img class="crop" src="../database/3.jpeg" id='9'>
+        </div>
+      </div>
+      <p id="demo"></p>
+
+    <script>
+        console.log( {{ identified | tojson }} )
+    </script>
+
+  </body>
+  <footer class="footer navbar-fixed-bottom navbar-default navbar">
+    <div class="container">
+	<center>
+	    <p class="footer-block" style="margin: 20px;">Steven Rakhmanchik 2020</p>
+	</center>
+    </div>
+</footer>
+</html>
